@@ -516,6 +516,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 50px;
 }
 
+.mt-\[50px\]{
+  margin-top: 50px;
+}
+
+.mt-\[20px\]{
+  margin-top: 20px;
+}
+
 .block{
   display: block;
 }
@@ -785,6 +793,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pl-\[40px\]{
   padding-left: 40px;
 }
@@ -843,6 +856,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -853,6 +871,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .leading-10{
@@ -1068,6 +1090,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 7rem;
   }
 
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pl-0{
     padding-left: 0px;
   }
@@ -1079,6 +1111,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1128,6 +1165,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 600px;
   }
 
+  .lg\:h-\[400px\]{
+    height: 400px;
+  }
+
   .lg\:w-\[80\%\]{
     width: 80%;
   }
@@ -1157,6 +1198,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 0px;
   }
 
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:pl-\[200px\]{
     padding-left: 200px;
   }
@@ -1168,5 +1219,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
