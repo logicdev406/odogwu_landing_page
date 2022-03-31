@@ -30,6 +30,7 @@ module.exports = {
         orbitron: ["Orbitron"],
         poppins: ["Poppins"],
         montserrat: ["Montserrat"],
+        garamond: ["Garamond"],
       },
     },
   },
