@@ -25,7 +25,6 @@ const Header = () => {
         style={{ backgroundImage: `url(${leaf})` }}
         className=" relative flex flex-col items-center justify-end h-[260px] md:h-[450px] lg:h-full w-[260px] md:w-[450px] lg:w-full bg-no-repeat bg-center bg-contain mb-[40px] md:mb-[100px] lg:mb-0 "
       >
-        {/* <img className=" absolute top-[12%] h-[550px] " src={leaf} alt="leaf" /> */}
         <img
           className=" h-[270px] md:h-[420px] lg:h-[600px] "
           src={bitters}
