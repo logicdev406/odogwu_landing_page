@@ -6,7 +6,7 @@ const HelthBenefits = () => {
       <h1 className=" text-xl md:text-4xl lg:text-4xl text-lemonGreen font-semibold ">
         Health benefits
       </h1>
-      <p className=" text-sm md:text-lg lg:text-lg text-white font-light mt-[20px] text-center px-5 md:px-20 lg:px-0 ">
+      <p className=" text-sm md:text-lg lg:text-xl text-white font-light mt-[20px] text-center px-5 md:px-20 lg:px-0 ">
         Odogwu bitters aids in boosting the immune system helps in the relief of
         stress <br className=" hidden md:hidden lg:inline-block " /> and
         regulation of blood sugar level and promotion of weight loss..
