@@ -5,7 +5,7 @@ import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 const Header = () => {
   return (
     <div className=" flex items-center justify-center h-[70px] md:h-[85px] lg:h-[85px] w-full bg-black font-montserrat ">
-      <div className=" flex items-center justify-between h-full w-[90%] md:w-[700px] lg:w-[80%] ">
+      <div className=" flex items-center justify-between h-full w-[90%] md:w-[700px] lg:w-[90%] ">
         <img
           className=" h-[40px] md:h-[50px] lg:h-[50px] "
           src={logo}
