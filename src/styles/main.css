@@ -468,8 +468,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 1.75rem;
 }
 
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-\[85px\]{
@@ -492,6 +500,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 60px;
 }
 
+.h-\[70px\]{
+  height: 70px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -502,6 +514,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[150px\]{
   width: 150px;
+}
+
+.w-\[90\%\]{
+  width: 90%;
 }
 
 .items-center{
@@ -566,4 +582,96 @@ Ensure the default browser behavior of the `hidden` attribute.
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 768px){
+  .md\:mx-7{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
+
+  .md\:mx-4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mx-2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .md\:ml-7{
+    margin-left: 1.75rem;
+  }
+
+  .md\:ml-2{
+    margin-left: 0.5rem;
+  }
+
+  .md\:ml-4{
+    margin-left: 1rem;
+  }
+
+  .md\:inline-flex{
+    display: inline-flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-\[50px\]{
+    height: 50px;
+  }
+
+  .md\:h-\[85px\]{
+    height: 85px;
+  }
+
+  .md\:w-\[740px\]{
+    width: 740px;
+  }
+
+  .md\:w-\[700px\]{
+    width: 700px;
+  }
+
+  .md\:w-\[600px\]{
+    width: 600px;
+  }
+
+  .md\:w-\[400px\]{
+    width: 400px;
+  }
+}
+
+@media (min-width: 1180px){
+  .lg\:mx-7{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+  }
+
+  .lg\:ml-7{
+    margin-left: 1.75rem;
+  }
+
+  .lg\:inline-flex{
+    display: inline-flex;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:h-\[50px\]{
+    height: 50px;
+  }
+
+  .lg\:h-\[85px\]{
+    height: 85px;
+  }
+
+  .lg\:w-\[80\%\]{
+    width: 80%;
+  }
 }
