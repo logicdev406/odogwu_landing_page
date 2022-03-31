@@ -14,7 +14,7 @@ const Header = () => {
         <div className="  items-center text-white text-sm font-medium hidden md:inline-flex lg:inline-flex">
           <p className=" mx-7 md:mx-4 lg:mx-7 text-lemonGreen ">About Us</p>
           <p className=" mx-7 md:mx-4 lg:mx-7 ">Our solution</p>
-          <button className=" focus:outline-none h-[50px] w-[150px] bg-lemonGreen text-black font-medium ml-7 md:ml-4 lg:ml-7 ">
+          <button className=" focus:outline-none h-[45px] w-[145px] bg-lemonGreen text-black font-medium ml-7 md:ml-4 lg:ml-7 ">
             Contact
           </button>
         </div>

@@ -652,6 +652,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 140px;
 }
 
+.w-\[145px\]{
+  width: 145px;
+}
+
 .flex-col{
   flex-direction: column;
 }
