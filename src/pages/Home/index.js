@@ -5,6 +5,7 @@ import HelthBenefits from "./components/HelthBenefits";
 import WhyOdogwu from "./components/WhyOdogwu";
 import MadeOf from "./components/MadeOf";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <WhyOdogwu />
       <MadeOf />
       <WhyChooseUs />
+      <Footer />
     </div>
   );
 };
