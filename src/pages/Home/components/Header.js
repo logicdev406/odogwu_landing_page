@@ -21,12 +21,14 @@ const Header = () => {
           Contact Us
         </button>
       </div>
-      <div
-        style={{ backgroundImage: `url(${leaf})` }}
-        className=" relative flex flex-col items-center justify-end h-[260px] md:h-[450px] lg:h-full w-[260px] md:w-[450px] lg:w-full bg-no-repeat bg-center bg-contain mb-[40px] md:mb-[100px] lg:mb-0 "
-      >
+      <div className=" relative flex flex-col items-center justify-end h-[260px] md:h-[450px] lg:h-full w-[260px] md:w-[450px] lg:w-full mb-[80px] md:mb-[100px] lg:mb-0 ">
         <img
-          className=" h-[270px] md:h-[420px] lg:h-[600px] "
+          className=" absolute top-0 md:top-10 lg:top-10 h-[270px] md:h-[420px] lg:h-[500px] "
+          src={leaf}
+          alt="leaf"
+        />
+        <img
+          className=" z-10 mb-[-25px] md:mb-[-40px] lg:mb-[55px] h-[270px] md:h-[420px] lg:h-[500px] "
           src={bitters}
           alt="bitters"
         />
