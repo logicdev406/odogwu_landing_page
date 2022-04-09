@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../../assets/logo/logo.svg";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 
-const Header = () => {
+const Header = ({ showMenu, setShowMenu }) => {
   return (
     <div className=" flex items-center justify-center h-[70px] md:h-[85px] lg:h-[85px] w-full bg-black font-montserrat ">
       <div className=" flex items-center justify-between h-full w-[90%] md:w-[700px] lg:w-[90%] ">
@@ -18,9 +18,14 @@ const Header = () => {
             Contact
           </button>
         </div>
-        <div className=" block md:hidden lg:hidden text-white">
+        <button
+          onClick={() => {
+            return setShowMenu(!showMenu);
+          }}
+          className=" focus:outline-none block md:hidden lg:hidden text-white"
+        >
           <MenuRoundedIcon fontSize="large" />
-        </div>
+        </button>
       </div>
     </div>
   );

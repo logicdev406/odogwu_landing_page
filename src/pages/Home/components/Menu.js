@@ -10,9 +10,9 @@ const Menu = ({ showMenu, setShowMenu }) => {
             onClick={() => {
               return setShowMenu(!showMenu);
             }}
-            className=" absolute top-8 left-8 "
+            className=" absolute top-5 right-5 "
           >
-            <CloseRoundedIcon />
+            <CloseRoundedIcon fontSize="large" />
           </button>
 
           <a
