@@ -16,16 +16,31 @@ const Menu = ({ showMenu, setShowMenu }) => {
           </button>
 
           <a
-            href="/"
+            href="#aboutUs"
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
             className=" my-2 text-lg text-white hover:text-lemonGreen "
           >
             About Us
           </a>
           <a
-            href="/"
+            href="#ourSolution"
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
             className=" my-2 text-lg text-white hover:text-lemonGreen "
           >
             Our solution
+          </a>
+          <a
+            href="#whyChooseUs"
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
+            className=" my-2 text-lg text-white hover:text-lemonGreen "
+          >
+            Why choose us
           </a>
         </div>
       )}

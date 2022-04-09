@@ -2,7 +2,7 @@ import React from "react";
 
 const HelthBenefits = () => {
   return (
-    <div className=" flex flex-col items-center justify-center h-auto md:h-auto lg:h-[400px] w-full bg-black font-poppins py-10 md:py-20 lg:py-0 ">
+    <div className=" flex flex-col items-center justify-center h-auto md:h-auto lg:h-[600px] w-full bg-black font-poppins py-10 md:py-20 lg:py-0 ">
       <h1 className=" text-xl md:text-4xl lg:text-4xl text-lemonGreen font-semibold ">
         Health benefits
       </h1>

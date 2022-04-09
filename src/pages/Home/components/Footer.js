@@ -40,10 +40,13 @@ const Footer = () => {
       </div>{" "}
       <div className=" flex flex-col items-center text-sm md:text-base lg:text-base pb-[50px] md:pb-[80px] lg:pb-0 ">
         <p>
-          <a href="/#">Our solution</a>
+          <a href="#ourSolution">About Us</a>
         </p>
         <p>
-          <a href="/#">About Us</a>
+          <a href="#aboutUs">Our solution</a>
+        </p>
+        <p>
+          <a href="#whyChooseUs">Why choose us</a>
         </p>
       </div>
       <div className=" flex flex-col items-center md:items-center lg:items-start ">

@@ -3,7 +3,10 @@ import icecubes from "../../../assets/image/icecubes.png";
 
 const WhyOdogwu = () => {
   return (
-    <div className=" relative flex flex-col items-center justify-center h-[600px] w-full bg-black ">
+    <div
+      id="aboutUs"
+      className=" relative flex flex-col items-center justify-center h-[800px] w-full bg-black "
+    >
       <h1 className=" text-xl md:text-4xl lg:text-4xl text-lemonGreen font-semibold text-center ">
         Why odogwu bitters drink is{" "}
         <br className=" hidden md:hidden lg:inline-block " /> special?

@@ -5,6 +5,7 @@ import lion from "../../../assets/image/lion.png";
 const MadeOf = () => {
   return (
     <div
+      id="ourSolution"
       style={{ backgroundImage: `url(${backgroundImage})` }}
       className=" relative flex flex-col items-center md:items-center lg:items-start justify-center h-[600px] md:h-[800px] lg:h-[800px] w-full bg-black bg-center bg-no-repeat bg-cover font-montserrat text-4xl overflow-hidden "
     >

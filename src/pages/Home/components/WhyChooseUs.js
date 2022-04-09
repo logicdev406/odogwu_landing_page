@@ -3,7 +3,10 @@ import leaf from "../../../assets/image/leafOpacity.png";
 
 const WhyChooseUs = () => {
   return (
-    <div className=" relative flex flex-col items-center justify-center h-[600px] md:h-[800px] lg:h-[800px] w-full bg-darkblack text-white font-montserrat ">
+    <div
+      id="whyChooseUs"
+      className=" relative flex flex-col items-center justify-center h-[600px] md:h-[800px] lg:h-[800px] w-full bg-darkblack text-white font-montserrat "
+    >
       <h1 className=" text-xl md:text-2xl lg:text-3xl text-faintYellow font-normal font-garamond ">
         WHY CHOOSE US
       </h1>
